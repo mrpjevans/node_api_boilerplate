@@ -44,7 +44,7 @@
     "sequelize"
   ],
   "author": "PJ Evans <pj@mrpjevans.com>",
-  "license": "MIT",
+  "license": "Hippocratic",
   "bugs": {
     "url": "https://github.com/mrpjevans/node_api_boilerplate/issues"
   },
