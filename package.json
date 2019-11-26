@@ -1,0 +1,52 @@
+{
+  "name": "node_api_boilerplate",
+  "version": "1.0.0",
+  "description": "A boilerplate for build Node/Express APIs",
+  "main": "app.js",
+  "dependencies": {
+    "acorn": "^7.1.0",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "sequelize": "^5.21.2",
+    "sqlite3": "^4.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "chai-http": "^4.3.0",
+    "eslint": "^6.7.1",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-promise": "^4.2.1",
+    "mocha": "^6.2.2",
+    "nodemon": "^2.0.1",
+    "prettier": "^1.19.1"
+  },
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "mocha",
+    "dev": "DEBUG=node_api_boilerplate:* nodemon ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrpjevans/node_api_boilerplate.git"
+  },
+  "keywords": [
+    "api",
+    "rest",
+    "boilerplate",
+    "node",
+    "express",
+    "sequelize"
+  ],
+  "author": "PJ Evans <pj@mrpjevans.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrpjevans/node_api_boilerplate/issues"
+  },
+  "homepage": "https://github.com/mrpjevans/node_api_boilerplate#readme"
+}
